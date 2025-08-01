@@ -34,6 +34,21 @@
             padding: 15px;
             border-left: 4px solid #3498db;
         }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        .image-caption {
+            font-style: italic;
+            color: #666;
+            margin-top: 8px;
+        }
     </style>
 </head>
 <body>
@@ -44,6 +59,12 @@
         
         <div class="highlight">
             <p>HTML (超文本标记语言) 是构建网页的标准标记语言。它定义了网页的结构和内容。</p>
+        </div>
+        
+        <!-- 添加的图片部分 -->
+        <div class="image-container">
+            <img src="https://via.placeholder.com/600x400" alt="示例图片">
+            <div class="image-caption">这是一张示例图片，您可以用自己的图片替换</div>
         </div>
         
         <h2>关于HTML</h2>
